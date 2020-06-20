@@ -1,0 +1,10 @@
+build/
+node_modules/
+
+
+cmake-build-debug/
+CMakeLists.txt
+
+.idea/
+
+package-lock.json
