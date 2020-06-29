@@ -31,7 +31,7 @@ Napi::Value stackFrames_GetAt(const Napi::CallbackInfo &info) {
     return env.Null();
   }
 
-  v8::Local<v8::stackFrames> stackFrames =
+  v8::Local<v8::StackFrame> stackFrames =
       stackTrace->GetFrame(isolate, stackTraceIndex - 1);
 
   Napi::Object frame = Napi::Object::New(env);
