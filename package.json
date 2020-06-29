@@ -13,7 +13,7 @@
     "format": "clang-format-lint --fix src/** && prettier --write **/*.js *.js"
   },
   "gypfile": true,
-  "name": "stack-frames",
+  "name": "@yosiat/stack-frames",
   "version": "1.0.0",
   "author": "Yosi Attias",
   "license": "MIT",
