@@ -15,9 +15,13 @@
   "gypfile": true,
   "name": "stack-frames",
   "version": "1.0.0",
-  "author": "",
+  "author": "Yosi Attias",
   "license": "ISC",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosiat/stack-frames.git"
+  },
   "devDependencies": {
     "@seadub/clang-format-lint": "0.0.2",
     "ava": "^3.9.0",
