@@ -16,7 +16,7 @@
   "name": "stack-frames",
   "version": "1.0.0",
   "author": "Yosi Attias",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "repository": {
     "type": "git",
