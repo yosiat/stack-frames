@@ -3,7 +3,7 @@
   "dependencies": {
     "bindings": "^1.5.0",
     "node-addon-api": "^4.2.0",
-    "node-gyp": "^8.3.0"
+    "node-gyp": "^8.4.1"
   },
   "scripts": {
     "test": "ava",
@@ -27,7 +27,7 @@
     "ava": "^3.15.0",
     "benchmark": "^2.1.4",
     "callsites": "3.1.0",
-    "clang-format": "^1.5.0",
-    "prettier": "^2.4.1"
+    "clang-format": "^1.6.0",
+    "prettier": "^2.5.0"
   }
 }
