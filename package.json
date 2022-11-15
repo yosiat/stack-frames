@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@seadub/clang-format-lint": "0.0.2",
-    "ava": "^4.3.3",
+    "ava": "^5.1.0",
     "benchmark": "^2.1.4",
     "callsites": "3.1.0",
     "clang-format": "^1.8.0",
