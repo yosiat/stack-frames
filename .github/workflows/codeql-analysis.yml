@@ -49,7 +49,7 @@ jobs:
       with:
         node-version: 16.x
         
-    - run: npm install && npm run build
+    - run: npm install
 
 
     - name: Perform CodeQL Analysis
