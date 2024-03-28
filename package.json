@@ -5,7 +5,7 @@
     "node-addon-api": "^7.0.0"
   },
   "scripts": {
-    "test": "ava",
+    "test": "node test",
     "lint": "clang-format-lint src/** && prettier -c **/*.js *.js",
     "format": "clang-format-lint --fix src/** && prettier --write **/*.js *.js"
   },
@@ -21,7 +21,6 @@
   },
   "devDependencies": {
     "@seadub/clang-format-lint": "0.0.2",
-    "ava": "^5.2.0",
     "benchmark": "^2.1.4",
     "callsites": "3.1.0",
     "clang-format": "^1.8.0",
