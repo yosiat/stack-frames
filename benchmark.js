@@ -1,5 +1,5 @@
 const Benchmark = require("benchmark");
-const callsites = require("callsites");
+const callsites = require("callsites").default;
 const stackFrames = require("./lib/binding.js");
 
 function getStackTraceInfo(stackIndex) {
