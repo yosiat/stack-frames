@@ -11,18 +11,6 @@ function getStackTraceInfo(stackIndex) {
   };
 }
 
-function logger(msg) {
-  console.log(msg, getStackTraceInfo(1));
-}
-
-function getStackTraceInfoWithSt(stackIndex) {
-  return StackTrace(stackIndex + 1);
-}
-
-function loggerWithSt(msg) {
-  console.log(msg, getStackTraceInfoWithSt(1));
-}
-
 function main() {
   var suite = new Benchmark.Suite();
 
@@ -35,7 +23,6 @@ function main() {
     .on("complete", function () {
       process.exit();
     })
-    // run async
     .run({ async: true });
 }
 

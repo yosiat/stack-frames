@@ -3,17 +3,17 @@ const test = require("node:test");
 const assert = require("node:assert");
 
 test("returns file name", () => {
-  assert.equal(stackFrames.getAt(0).file_name, __filename);
+  const [file_name] = stackFrames.getAt(0);
+  assert.equal(file_name, __filename);
 });
 
 test("nested", () => {
   const g = () => stackFrames.getAt(0);
   const f = () => g();
 
-  assert.deepEqual(f(), {
-    line_number: 10, // where `g` is declared
-    file_name: __filename,
-  });
+  const [file_name, line_number] = f();
+  assert.equal(file_name, __filename);
+  assert.equal(line_number, 11);
 });
 
 test("missing stack frame index parameter", () => {
