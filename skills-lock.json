@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "node-best-practices": {
+      "source": "mcollina/skills",
+      "sourceType": "github",
+      "computedHash": "8a76a4035d9407bab1ef2450dab52082045dce1f3a75f3bc341b3eab526d89d8"
+    },
+    "nodejs-core": {
+      "source": "mcollina/skills",
+      "sourceType": "github",
+      "computedHash": "6dc34fb3b062a6133d5addac186f62e558f76bc7cf10974b3f8a69b56097b0ec"
+    }
+  }
+}
